@@ -1,0 +1,313 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.4)  4 OCT 2023 17:39
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/frede/Desktop/SDU/5Sem/Reports/CyberSec/Main.tex
+(c:/Users/frede/Desktop/SDU/5Sem/Reports/CyberSec/main.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+(c:/texlive/2023/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(c:/texlive/2023/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (c:/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (c:/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (c:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks18
+) (c:/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+) (c:/texlive/2023/texmf-dist/tex/latex/tabularray/tabularray.sty (c:/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-08-29 L3 programming layer (loader) 
+ (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count196
+\l__pdf_internal_box=\box51
+))
+Package: tabularray 2023-03-01 v2023A Typeset tabulars and arrays with LaTeX3
+\l__tblr_a_int=\count197
+\l__tblr_c_int=\count198
+\l__tblr_r_int=\count199
+\l__tblr_d_dim=\dimen149
+\l__tblr_h_dim=\dimen150
+\l__tblr_o_dim=\dimen151
+\l__tblr_p_dim=\dimen152
+\l__tblr_q_dim=\dimen153
+\l__tblr_r_dim=\dimen154
+\l__tblr_s_dim=\dimen155
+\l__tblr_t_dim=\dimen156
+\l__tblr_v_dim=\dimen157
+\l__tblr_w_dim=\dimen158
+\l__tblr_a_box=\box52
+\l__tblr_b_box=\box53
+\l__tblr_c_box=\box54
+\l__tblr_d_box=\box55
+\g__tblr_table_count_int=\count266
+\c@rownum=\count267
+\c@colnum=\count268
+\c@rowcount=\count269
+\c@colcount=\count270
+\abovesep=\dimen159
+\belowsep=\dimen160
+\leftsep=\dimen161
+\rightsep=\dimen162
+\g_tblr_level_int=\count271
+\g__tblr_data_row_key_count_int=\count272
+\g__tblr_data_column_key_count_int=\count273
+\g__tblr_data_cell_key_count_int=\count274
+\g__tblr_array_int=\count275
+\l__tblr_key_count_int=\count276
+\l__tblr_key_quotient_int=\count277
+\l__tblr_key_quotient_two_int=\count278
+\l__tblr_key_remainder_int=\count279
+\g__tblr_data_str_value_count_int=\count280
+\rulewidth=\dimen163
+\l__tblr_strut_dp_dim=\dimen164
+\l__tblr_strut_ht_dim=\dimen165
+\g__tblr_cell_wd_dim=\dimen166
+\g__tblr_cell_ht_dim=\dimen167
+\g__tblr_cell_head_dim=\dimen168
+\g__tblr_cell_foot_dim=\dimen169
+\l__column_target_dim=\dimen170
+\l__tblr_caption_box=\box56
+\l__tblr_caption_left_box=\box57
+\l__tblr_row_head_box=\box58
+\l__tblr_row_foot_box=\box59
+\l__tblr_row_head_foot_dim=\dimen171
+\tablewidth=\dimen172
+\l__tblr_table_firsthead_box=\box60
+\l__tblr_table_middlehead_box=\box61
+\l__tblr_table_lasthead_box=\box62
+\l__tblr_table_firstfoot_box=\box63
+\l__tblr_table_middlefoot_box=\box64
+\l__tblr_table_lastfoot_box=\box65
+\l__tblr_remain_height_dim=\dimen173
+\l__tblr_long_from_int=\count281
+\l__tblr_long_to_int=\count282
+\l__tblr_curr_i_int=\count283
+\l__tblr_prev_i_int=\count284
+\l__tblr_table_page_int=\count285
+\l__tblr_table_head_box=\box66
+\l__tblr_table_foot_box=\box67
+\l__tblr_table_head_foot_dim=\dimen174
+\l__tblr_table_head_body_foot_dim=\dimen175
+\l__tblr_table_box=\box68
+\l__tblr_table_hlines_box=\box69
+\l__tblr_hline_box=\box70
+\l__tblr_row_box=\box71
+\l__tblr_col_o_wd_dim=\dimen176
+\l__tblr_col_b_wd_dim=\dimen177
+\l__tblr_hline_leftskip_dim=\dimen178
+\l__tblr_hline_rightskip_dim=\dimen179
+\l__tblr_row_ht_dim=\dimen180
+\l__tblr_row_dp_dim=\dimen181
+\l__tblr_row_abovesep_dim=\dimen182
+\l__tblr_row_belowsep_dim=\dimen183
+\l__tblr_row_vlines_box=\box72
+\l__tblr_vline_box=\box73
+\l__tblr_cell_box=\box74
+\l__row_upper_dim=\dimen184
+\l__row_lower_dim=\dimen185
+\l__row_vpace_dim=\dimen186
+\l__tblr_vline_aboveskip_dim=\dimen187
+\l__tblr_vline_belowskip_dim=\dimen188
+\l__tblr_cell_wd_dim=\dimen189
+\l__tblr_cell_ht_dim=\dimen190
+\l__tblr_diag_box=\box75
+) (c:/texlive/2023/texmf-dist/tex/latex/fontsize/fontsize.sty
+Package: fontsize 2021/08/04 v0.8.5 'fontsize' package. Set main font sizes (Ivan Valbusa)
+ (c:/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (c:/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex (c:/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks21
+\XKV@tempa@toks=\toks22
+)
+\XKV@depth=\count286
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (c:/texlive/2023/texmf-dist/tex/latex/l3packages/xfp/xfp.sty
+Package: xfp 2023-08-29 L3 Floating point unit
+)) (c:/texlive/2023/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+ (c:/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (c:/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (c:/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (c:/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count287
+)) (./Main.aux (./Sections/1.aux) (./Sections/2.aux) (./Sections/3.aux) (./Sections/4.aux) (./Sections/5.aux) (./Sections/6.aux) (./Sections/7.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(50.58878pt, 513.11745pt, 50.58878pt)
+* v-part:(T,H,B)=(50.58878pt, 693.79243pt, 50.58878pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=513.11745pt
+* \textheight=693.79243pt
+* \oddsidemargin=-21.68121pt
+* \evensidemargin=-21.68121pt
+* \topmargin=-58.68121pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.79997pt plus 4.79947pt minus 2.4005pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Calculating math sizes for size <14.39996> on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.39996> on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.07993> on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7.19998> on input line 20.
+[1
+
+{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 3.
+)
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+ [2]
+\openout2 = `Sections/1.aux'.
+
+ (./Sections/1.tex) [3
+
+]
+\openout2 = `Sections/2.aux'.
+
+ (./Sections/2.tex) [4
+
+
+
+]
+\openout2 = `Sections/3.aux'.
+
+ (./Sections/3.tex) [5
+
+
+
+]
+\openout2 = `Sections/4.aux'.
+
+ (./Sections/4.tex [6
+
+
+
+]
+Overfull \vbox (8.88374pt too high) has occurred while \output is active []
+
+ [7]) [8]
+\openout2 = `Sections/5.aux'.
+
+ (./Sections/5.tex) [9
+
+
+
+]
+\openout2 = `Sections/6.aux'.
+
+ (./Sections/6.tex) [10
+
+
+
+]
+\openout2 = `Sections/7.aux'.
+
+
+No file Sections/7.tex.
+(./Main.aux (./Sections/1.aux) (./Sections/2.aux) (./Sections/3.aux) (./Sections/4.aux) (./Sections/5.aux) (./Sections/6.aux) (./Sections/7.aux))
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 4126 strings out of 474928
+ 85495 string characters out of 5763562
+ 1926785 words of memory out of 5000000
+ 25632 multiletter control sequences out of 15000+600000
+ 563544 words of font info for 54 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 65i,6n,79p,766b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on main.pdf (10 pages, 52800 bytes).
+PDF statistics:
+ 47 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
