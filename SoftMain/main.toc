@@ -1,9 +1,9 @@
 \contentsline {section}{\numberline {1}Change Request}{3}{}%
-\contentsline {section}{\numberline {2}Concept Location}{4}{}%
-\contentsline {section}{\numberline {3}Impact Analysis}{5}{}%
-\contentsline {section}{\numberline {4}Refactoring Patterns and Code smells}{6}{}%
-\contentsline {section}{\numberline {5}Refactoring Implementation}{7}{}%
-\contentsline {section}{\numberline {6}Verification}{8}{}%
-\contentsline {section}{\numberline {7}Continuous Integration}{9}{}%
-\contentsline {section}{\numberline {8}Conclusion}{10}{}%
-\contentsline {section}{\numberline {9}Source Code}{11}{}%
+\contentsline {section}{\numberline {2}Concept Location}{5}{}%
+\contentsline {section}{\numberline {3}Impact Analysis}{6}{}%
+\contentsline {section}{\numberline {4}Refactoring Patterns and Code smells}{7}{}%
+\contentsline {section}{\numberline {5}Refactoring Implementation}{8}{}%
+\contentsline {section}{\numberline {6}Verification}{9}{}%
+\contentsline {section}{\numberline {7}Continuous Integration}{10}{}%
+\contentsline {section}{\numberline {8}Conclusion}{11}{}%
+\contentsline {section}{\numberline {9}Source Code}{12}{}%
