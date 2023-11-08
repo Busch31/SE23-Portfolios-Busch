@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.4)  4 OCT 2023 17:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.4)  8 NOV 2023 15:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/frede/Desktop/SDU/5Sem/Reports/CyberSec/Main.tex
-(c:/Users/frede/Desktop/SDU/5Sem/Reports/CyberSec/main.tex
+**c:/Users/frede/Desktop/SDU/5Sem/Reports/SoftMain/main.tex
+(c:/Users/frede/Desktop/SDU/5Sem/Reports/SoftMain/main.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (c:/texlive/2023/texmf-dist/tex/latex/base/article.cls
@@ -169,7 +169,7 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )) (c:/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count287
-)) (./Main.aux (./Sections/1.aux) (./Sections/2.aux) (./Sections/3.aux) (./Sections/4.aux) (./Sections/5.aux) (./Sections/6.aux) (./Sections/7.aux))
+)) (./main.aux (./Sections/1.aux) (./Sections/2.aux) (./Sections/3.aux) (./Sections/4.aux) (./Sections/5.aux) (./Sections/6.aux) (./Sections/7.aux) (./Sections/8.aux) (./Sections/9.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -230,14 +230,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7.19998> on input line 20.
 [1
 
-{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
-)
+{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc)
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
@@ -263,51 +256,64 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ]
 \openout2 = `Sections/4.aux'.
 
- (./Sections/4.tex [6
+ (./Sections/4.tex) [6
 
 
 
 ]
-Overfull \vbox (8.88374pt too high) has occurred while \output is active []
-
- [7]) [8]
 \openout2 = `Sections/5.aux'.
 
- (./Sections/5.tex) [9
+ (./Sections/5.tex) [7
 
 
 
 ]
 \openout2 = `Sections/6.aux'.
 
- (./Sections/6.tex) [10
+ (./Sections/6.tex) [8
 
 
 
 ]
 \openout2 = `Sections/7.aux'.
 
+ (./Sections/7.tex) [9
 
-No file Sections/7.tex.
-(./Main.aux (./Sections/1.aux) (./Sections/2.aux) (./Sections/3.aux) (./Sections/4.aux) (./Sections/5.aux) (./Sections/6.aux) (./Sections/7.aux))
+
+
+]
+\openout2 = `Sections/8.aux'.
+
+ (./Sections/8.tex) [10
+
+
+
+]
+\openout2 = `Sections/9.aux'.
+
+ (./Sections/9.tex) [11
+
+
+
+] (./main.aux (./Sections/1.aux) (./Sections/2.aux) (./Sections/3.aux) (./Sections/4.aux) (./Sections/5.aux) (./Sections/6.aux) (./Sections/7.aux) (./Sections/8.aux) (./Sections/9.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4126 strings out of 474928
- 85495 string characters out of 5763562
- 1926785 words of memory out of 5000000
- 25632 multiletter control sequences out of 15000+600000
- 563544 words of font info for 54 fonts, out of 8000000 for 9000
+ 4160 strings out of 474928
+ 86576 string characters out of 5763562
+ 1920785 words of memory out of 5000000
+ 25657 multiletter control sequences out of 15000+600000
+ 560799 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,6n,79p,766b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 65i,6n,79p,546b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (10 pages, 52800 bytes).
+Output written on main.pdf (11 pages, 33702 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 50 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
