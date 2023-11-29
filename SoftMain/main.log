@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.4)  29 NOV 2023 17:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.4)  29 NOV 2023 17:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -294,11 +294,7 @@ Package pdftex.def Info: pic/Tool_palette_Display.png  used on input line 33.
  <./pic/Tool_palette_Drag_and_drop.png> <./pic/Tool_palette_Display.png>]) [4{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 \openout2 = `Sections/2.aux'.
 
- (./Sections/2.tex
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [5
+ (./Sections/2.tex) [5
 
 
 
