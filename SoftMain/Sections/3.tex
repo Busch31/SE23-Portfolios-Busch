@@ -1,2 +1,28 @@
 \section{Impact Analysis}
-hej
+\subsection{Brief Introduction}
+The impact analysis is used to understand the implications of changing a specific feature within the \textit{JHotDraw} project.
+The project itself will receive the different feature changes at different times, as the development team, consisting of 5 members,
+they are all working on different features of the application at their own pace, and some members might be further ahead than others at any given time.
+After inserting the feature entry points into the \textit{JHotDraw} project, I was able to get an output of different relevant figures: \textit{Feature-code Characterization,}
+\textit{Feature-code Correlation Grid,} and \textit{Feature-Package Correlation Graph.}
+
+The feature entry points I used in this project are the following:
+\begin{itemize}
+    \item \textit{Tools-display}
+    \item \textit{Drag-drop}
+          \begin{itemize}
+              \item \textit{Pressed}
+              \item \textit{Dragged}
+              \item \textit{Released}
+          \end{itemize}
+\end{itemize}
+
+The \textit{}Tools-display, as stated in the \textit{}Concept Location chapter, is a class that references the \textit{JDisclosureToolbar} class. The \textit{Tools-display} is a handler callback that has been added to a button;
+when pressed, it will change the visibility of the chosen toolbar section from visible to hidden or vice versa.
+
+The \textit{Drag-drop}, which consists of \textit{Pressed}, \textit{Dragged}, and \textit{Released}, are handlers that are connected with the \textit{PaletteToolbarUI}. They are activated in the following order:
+\begin{itemize}
+    \item \textit{Pressed}: when a tool is pressed on with the click of a mouse.
+    \item \textit{Dragged}: when a tool has been pressed and the mouse moves while the button is still being held down by the user.
+    \item \textit{Released}: when the user releases the pressed mouse button again.
+\end{itemize}

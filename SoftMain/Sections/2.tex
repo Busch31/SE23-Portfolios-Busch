@@ -1,2 +1,34 @@
 \section{Concept Location}
-hej
+
+\subsection{Methodology}
+The location of the classes that I identified was based on the following tools, which I used to locate the different classes and the different methods
+that I found was relevant for the feature I had chosen \textit{Tools Palette}.
+\begin{itemize}
+    \item Different search methods such as:
+          \begin{itemize}
+              \item Find all references.
+              \item Go to definition.
+              \item Quick search.
+              \item Global search.
+              \item Keyword search
+          \end{itemize}
+    \item Tree scaling both up and down with Extension reference.
+    \item Removing code to see what functionality it would affect, thereby better understand what the different pieces of code did what and affects.
+\end{itemize}
+\subsection{Table Content Overview}
+The table below provides an easy overview of the different tools and processes I used to locate the different classes that I found relevant for my chosen feature.
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|p{0.5cm}|p{3.5cm}|p{3.5cm}|p{8cm}|}
+        \hline
+        \textbf{\#} & \textbf{Domain classes}     & \textbf{Tools used}                                               & \textbf{Comments}                                                                                                                                                                                                                                                                                                                                                                                                                                                                               \\ \hline
+        1           & \textit{AbstractToolbar}    & Quick Search\newline Find all references\newline Code removal     & I started by looking at the different abstract classes for the whole project. Here I found the \textit{AbstractToolbar} class which looked like the right abstract class I was looking for when my features name is \textit{Tool Palette.} I then tested with \textit{code removal} to see what it would impact in the toolbar, but I just not see any changes to the behavior of the program itself when running, so I started looking at what the \textit{AbstractToolbar} was extended from. \\ \hline
+        2           & \textit{JDisclosureToolbar} & Code removal\newline Extension reference\newline Go to definition & When I look at what \textit{AbstractToolbar} was extended from, I found the abstract class named \textit{JDisclosureToolbar}, I again tried code removal, this time giving my first result. The abstract class \textit{JDisclosureToolbar} is responsible for the \textit{show/hide} feature of the \textit{tool palette,} which I needed for my user story \textit{Display.}                                                                                                                   \\ \hline
+        3           & \textit{ToolsToolbar}       & Code removal\newline Extension reference                          & I then went back down the reference tree to see where in what class it would end. I ended up in the class \textit{ToolsToolbar}. Here again with \textit{code removal} I tried to see what the class was responsible for. I found that it was not the full toolbar as my first thought had been, but it was only a part of the whole \textit{tool palette.}                                                                                                                                     \\ \hline
+        4           & \textit{PaletteToolbarUI}   & Code removal\newline Keyword Search                               & After I hit a dead end with the \textit{Extension reference} tool method, I tried to do a \textit{global search} on different keywords such as \textit{Tool, UI, Palette, Bar, ToolBar} and other keywords that could be assimilated with my feature. With this tool method I found the \textit{PaletteToolbarUI} class which contained handlers. I tried to remove some of these handlers to see what it would affect.                                                                         \\ \hline
+    \end{tabular}
+    \caption{Overview of Domain Classes and Tools Used}
+    \label{table:domain-classes}
+\end{table}
+
+
