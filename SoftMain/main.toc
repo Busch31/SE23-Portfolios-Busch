@@ -4,9 +4,13 @@
 \contentsline {subsection}{\numberline {2.2}Table Content Overview}{5}{}%
 \contentsline {section}{\numberline {3}Impact Analysis}{7}{}%
 \contentsline {subsection}{\numberline {3.1}Brief Introduction}{7}{}%
-\contentsline {section}{\numberline {4}Refactoring Patterns and Code smells}{8}{}%
-\contentsline {section}{\numberline {5}Refactoring Implementation}{9}{}%
-\contentsline {section}{\numberline {6}Verification}{10}{}%
-\contentsline {section}{\numberline {7}Continuous Integration}{11}{}%
-\contentsline {section}{\numberline {8}Conclusion}{12}{}%
-\contentsline {section}{\numberline {9}Source Code}{13}{}%
+\contentsline {subsection}{\numberline {3.2}Featureous Feature-code Characterization}{8}{}%
+\contentsline {subsection}{\numberline {3.3}Featureous Feature Relations Characterization}{9}{}%
+\contentsline {subsection}{\numberline {3.4}Feature-code correlation graph and feature-code correlation grid}{10}{}%
+\contentsline {subsection}{\numberline {3.5}Table - Impact Analysis}{12}{}%
+\contentsline {section}{\numberline {4}Refactoring Patterns and Code smells}{13}{}%
+\contentsline {section}{\numberline {5}Refactoring Implementation}{14}{}%
+\contentsline {section}{\numberline {6}Verification}{15}{}%
+\contentsline {section}{\numberline {7}Continuous Integration}{16}{}%
+\contentsline {section}{\numberline {8}Conclusion}{17}{}%
+\contentsline {section}{\numberline {9}Source Code}{18}{}%

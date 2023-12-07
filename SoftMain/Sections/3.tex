@@ -26,3 +26,84 @@ The \textit{Drag-drop}, which consists of \textit{Pressed}, \textit{Dragged}, an
     \item \textit{Dragged}: when a tool has been pressed and the mouse moves while the button is still being held down by the user.
     \item \textit{Released}: when the user releases the pressed mouse button again.
 \end{itemize}
+
+\subsection{Featureous Feature-code Characterization}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{pic/Featureous Feature-Code Characterization.png}
+    \caption{Featureous Feature-Code Characterization}
+    \label{fig:Featureous Feature-Code Characterization}
+\end{figure}
+
+As we can see, the units do contain alot of inter-group units, this can if one is not careful, end in entanglement with the other units that other developers
+are using in their part of the project, but it does offer us some insights for future refactorings.
+
+\subsection{Featureous Feature Relations Characterization}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{pic/Feature Relations Characterization.png}
+    \caption{Featureous Feature Relations Characterization}
+    \label{fig:Featureous Feature Relations Characterization}
+\end{figure}
+
+As one can see, the connections which the entry points have made, does not contain strong connections
+with the other features that are also in this project. it does not look like they even engage in any consumer/producer connections.
+
+\subsection{Feature-code correlation graph and feature-code correlation grid}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{pic/Feature-Package Correlation Graph.png}
+    \caption{Feature-Package Correlation Graph}
+    \label{fig:Feature-Package Correlation Graph}
+\end{figure}
+
+These tools can provide a deeper look into the connections between source code units and features,
+highlighting relationships and dependencies important for understanding the overall impact of the change request.
+
+But however the \textit{Feature-Package Correlation Graph} does not give the best overview of the connections between the features and the packages.
+What it can provide however, is a visual confirmation that there is no connection between the \textit{PaletteToolbarUI} and the other entry points in the project.
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{pic/Feature-Code Correlation Grid.png}
+    \caption{Feature-Code Correlation Grid}
+    \label{fig:Feature-Code Correlation Grid}
+\end{figure}
+
+The analysis reveals only a small entanglement between my own features and those being used by other developers in the project.
+
+The \textit{drag-drop-released} feature shares the core package \textit{org.jhotdraw.samples.svg}
+with \textit{GroupAction}, \textit{BringToFront}, and \textit{SendToBack}.
+Also, all three functions of \textit{PaletteToolbarUI} cross with \textit{Select} and \textit{GroupAction}.
+The \textit{tools-display} feature also cross with several intergroup packages,
+but heavily with \textit{Select}, \textit{GroupAction}, and one package each from \textit{BringToFront} and \textit{SendToBack}.
+This interlinked nature of features requires very careful mindsets of other developers' work before proceeding with development and refactoring of
+their parts of the project.
+
+\subsection{Table - Impact Analysis}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|l|c|l|p{5cm}|}
+        \hline
+        \textbf{\textit{Package name}} & \textbf{\# of classes} & \textbf{Tool used} & \textbf{Comments} \\ \hline
+        \textit{.gui}                  & 76                     & Correlation grid   & changed           \\ \hline
+        \textit{.gui.plaf.pallete}     & 38                     & Correlation grid   & changed           \\ \hline
+        \textit{.samples.svg}          & 65                     & Correlation grid   & unchanged         \\ \hline
+        \textit{.draw.event}           & 20                     & Correlation grid   & unchanged         \\ \hline
+        \textit{.app}                  & 39                     & Correlation grid   & unchanged         \\ \hline
+        \textit{.draw.gui}             & 6                      & Correlation grid   & unchanged         \\ \hline
+    \end{tabular}
+    \caption{Feature-code correlation data}
+    \label{table:feature_code_correlation}
+\end{table}
+
+The \textit{PaletteToolbarUI} class displays a high level of independence, with no connections into \textit{JHotDraw} outside of the
+\textit{gui.plaf.palette} package. Its use is restricted to \textit{PaletteToolbarBorder} within the same package and \textit{JDisclosureToolbar},
+related to another primary feature. Also the \textit{JDisclosureToolbar} is connected only with the \textit{gui.plaf.palette} package.
+given that no changes are made to its public methods, any refactoring is not likely to disturb other parts of the project.
