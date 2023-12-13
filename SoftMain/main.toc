@@ -9,8 +9,10 @@
 \contentsline {subsection}{\numberline {3.4}Feature-code correlation graph and feature-code correlation grid}{10}{}%
 \contentsline {subsection}{\numberline {3.5}Table - Impact Analysis}{12}{}%
 \contentsline {section}{\numberline {4}Refactoring Patterns and Code smells}{13}{}%
-\contentsline {section}{\numberline {5}Refactoring Implementation}{14}{}%
-\contentsline {section}{\numberline {6}Verification}{15}{}%
-\contentsline {section}{\numberline {7}Continuous Integration}{16}{}%
-\contentsline {section}{\numberline {8}Conclusion}{17}{}%
-\contentsline {section}{\numberline {9}Source Code}{18}{}%
+\contentsline {subsection}{\numberline {4.1}JDisclosureToolBar class}{13}{}%
+\contentsline {subsection}{\numberline {4.2}PaletteToolbarUI class}{15}{}%
+\contentsline {section}{\numberline {5}Refactoring Implementation}{20}{}%
+\contentsline {section}{\numberline {6}Verification}{21}{}%
+\contentsline {section}{\numberline {7}Continuous Integration}{22}{}%
+\contentsline {section}{\numberline {8}Conclusion}{23}{}%
+\contentsline {section}{\numberline {9}Source Code}{24}{}%

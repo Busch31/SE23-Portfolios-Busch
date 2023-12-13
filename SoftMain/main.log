@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.4)  7 DEC 2023 14:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.4)  13 DEC 2023 21:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -343,42 +343,111 @@ Package pdftex.def Info: pic/Feature-Code Correlation Grid.png  used on input li
  [10 <./pic/Feature-Package Correlation Graph.png>] [11 <./pic/Feature-Code Correlation Grid.png>]) [12]
 \openout2 = `Sections/4.aux'.
 
- (./Sections/4.tex) [13
+ (./Sections/4.tex
+<pic/initComponents.png, id=58, 2216.28pt x 1437.37pt>
+File: pic/initComponents.png Graphic file (type png)
+<use pic/initComponents.png>
+Package pdftex.def Info: pic/initComponents.png  used on input line 15.
+(pdftex.def)             Requested size: 513.11745pt x 332.78139pt.
+<pic/setDisclosureState.png, id=59, 1883.035pt x 1585.925pt>
+File: pic/setDisclosureState.png Graphic file (type png)
+<use pic/setDisclosureState.png>
+Package pdftex.def Info: pic/setDisclosureState.png  used on input line 23.
+(pdftex.def)             Requested size: 513.11745pt x 432.14995pt.
+ [13
 
 
 
-]
+ <./pic/initComponents.png>]
+Underfull \hbox (badness 2772) in paragraph at lines 37--37
+[]\OT1/cmr/m/it/12 initComponents \OT1/cmr/m/n/12 mixes UI el-e-
+ []
+
+[14 <./pic/setDisclosureState.png>]
+<pic/navigateFocusedComp.png, id=69, 2216.28pt x 1658.195pt>
+File: pic/navigateFocusedComp.png Graphic file (type png)
+<use pic/navigateFocusedComp.png>
+Package pdftex.def Info: pic/navigateFocusedComp.png  used on input line 56.
+(pdftex.def)             Requested size: 513.11745pt x 383.90703pt.
+<pic/createFloatingFrame.png, id=70, 2216.28pt x 1359.0775pt>
+File: pic/createFloatingFrame.png Graphic file (type png)
+<use pic/createFloatingFrame.png>
+Package pdftex.def Info: pic/createFloatingFrame.png  used on input line 63.
+(pdftex.def)             Requested size: 513.11745pt x 314.65503pt.
+ [15 <./pic/navigateFocusedComp.png>]
+<pic/floatAt.png, id=75, 2216.28pt x 1208.515pt>
+File: pic/floatAt.png Graphic file (type png)
+<use pic/floatAt.png>
+Package pdftex.def Info: pic/floatAt.png  used on input line 70.
+(pdftex.def)             Requested size: 513.11745pt x 279.79665pt.
+<pic/setFloating.png, id=76, 2216.28pt x 2292.565pt>
+File: pic/setFloating.png Graphic file (type png)
+<use pic/setFloating.png>
+Package pdftex.def Info: pic/setFloating.png  used on input line 78.
+(pdftex.def)             Requested size: 513.11745pt x 530.77704pt.
+ [16 <./pic/createFloatingFrame.png> <./pic/floatAt.png>]
+<pic/dragTo.png, id=82, 2216.28pt x 1844.8925pt>
+File: pic/dragTo.png Graphic file (type png)
+<use pic/dragTo.png>
+Package pdftex.def Info: pic/dragTo.png  used on input line 85.
+(pdftex.def)             Requested size: 513.11745pt x 427.13142pt.
+ [17 <./pic/setFloating.png>]
+Underfull \hbox (badness 1365) in paragraph at lines 99--99
+[]\OT1/cmr/m/n/12 Overuse of anony-mous classes,
+ []
+
+
+Underfull \hbox (badness 2828) in paragraph at lines 100--100
+[]\OT1/cmr/m/n/12 Overriding meth-ods like `val-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]\OT1/cmr/m/n/12 Ensure that the over-rid-den
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 104--104
+[]\OT1/cmr/m/n/12 Abstract com-mon func-tion-al-ity
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 106--106
+[]\OT1/cmr/m/n/12 Abstract com-mon func-tion-al-ity
+ []
+
+[18 <./pic/dragTo.png>]) [19]
 \openout2 = `Sections/5.aux'.
 
- (./Sections/5.tex) [14
+ (./Sections/5.tex) [20
 
 
 
 ]
 \openout2 = `Sections/6.aux'.
 
- (./Sections/6.tex) [15
+ (./Sections/6.tex) [21
 
 
 
 ]
 \openout2 = `Sections/7.aux'.
 
- (./Sections/7.tex) [16
+ (./Sections/7.tex) [22
 
 
 
 ]
 \openout2 = `Sections/8.aux'.
 
- (./Sections/8.tex) [17
+ (./Sections/8.tex) [23
 
 
 
 ]
 \openout2 = `Sections/9.aux'.
 
- (./Sections/9.tex) [18
+ (./Sections/9.tex) [24
 
 
 
@@ -389,18 +458,18 @@ L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5140 strings out of 474928
- 102484 string characters out of 5763562
+ 5198 strings out of 474928
+ 104167 string characters out of 5763562
  1928785 words of memory out of 5000000
- 26595 multiletter control sequences out of 15000+600000
+ 26653 multiletter control sequences out of 15000+600000
  564587 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,11n,79p,722b,284s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (18 pages, 850295 bytes).
+Output written on main.pdf (24 pages, 2590209 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 134 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
