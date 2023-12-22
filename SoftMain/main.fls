@@ -149,26 +149,26 @@ OUTPUT Sections/3.aux
 INPUT ./Sections/3.tex
 INPUT ./Sections/3.tex
 INPUT Sections/3.tex
-INPUT ./pic/Featureous Feature-Code Characterization.png
-INPUT ./pic/Featureous Feature-Code Characterization.png
-INPUT ./pic/Featureous Feature-Code Characterization.png
-INPUT ./pic/Featureous Feature-Code Characterization.png
-INPUT ./pic/Featureous Feature-Code Characterization.png
-INPUT ./pic/Feature Relations Characterization.png
-INPUT ./pic/Feature Relations Characterization.png
-INPUT ./pic/Feature Relations Characterization.png
-INPUT ./pic/Feature Relations Characterization.png
-INPUT ./pic/Feature Relations Characterization.png
-INPUT ./pic/Feature-Package Correlation Graph.png
-INPUT ./pic/Feature-Package Correlation Graph.png
-INPUT ./pic/Feature-Package Correlation Graph.png
-INPUT ./pic/Feature-Package Correlation Graph.png
-INPUT ./pic/Feature-Package Correlation Graph.png
-INPUT ./pic/Feature-Code Correlation Grid.png
-INPUT ./pic/Feature-Code Correlation Grid.png
-INPUT ./pic/Feature-Code Correlation Grid.png
-INPUT ./pic/Feature-Code Correlation Grid.png
-INPUT ./pic/Feature-Code Correlation Grid.png
+INPUT ./pic/Featureous Feature-Code Characterization new.png
+INPUT ./pic/Featureous Feature-Code Characterization new.png
+INPUT ./pic/Featureous Feature-Code Characterization new.png
+INPUT ./pic/Featureous Feature-Code Characterization new.png
+INPUT ./pic/Featureous Feature-Code Characterization new.png
+INPUT ./pic/Feature Relations Characterization new.png
+INPUT ./pic/Feature Relations Characterization new.png
+INPUT ./pic/Feature Relations Characterization new.png
+INPUT ./pic/Feature Relations Characterization new.png
+INPUT ./pic/Feature Relations Characterization new.png
+INPUT ./pic/Feature-Package Correlation Graph new.png
+INPUT ./pic/Feature-Package Correlation Graph new.png
+INPUT ./pic/Feature-Package Correlation Graph new.png
+INPUT ./pic/Feature-Package Correlation Graph new.png
+INPUT ./pic/Feature-Package Correlation Graph new.png
+INPUT ./pic/Feature-Code Correlation Grid new.png
+INPUT ./pic/Feature-Code Correlation Grid new.png
+INPUT ./pic/Feature-Code Correlation Grid new.png
+INPUT ./pic/Feature-Code Correlation Grid new.png
+INPUT ./pic/Feature-Code Correlation Grid new.png
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
 INPUT ./Sections/4.tex
 OUTPUT Sections/4.aux
@@ -185,16 +185,6 @@ INPUT ./pic/setDisclosureState.png
 INPUT ./pic/setDisclosureState.png
 INPUT ./pic/setDisclosureState.png
 INPUT ./pic/setDisclosureState.png
-INPUT ./pic/navigateFocusedComp.png
-INPUT ./pic/navigateFocusedComp.png
-INPUT ./pic/navigateFocusedComp.png
-INPUT ./pic/navigateFocusedComp.png
-INPUT ./pic/navigateFocusedComp.png
-INPUT ./pic/createFloatingFrame.png
-INPUT ./pic/createFloatingFrame.png
-INPUT ./pic/createFloatingFrame.png
-INPUT ./pic/createFloatingFrame.png
-INPUT ./pic/createFloatingFrame.png
 INPUT ./pic/floatAt.png
 INPUT ./pic/floatAt.png
 INPUT ./pic/floatAt.png
@@ -215,6 +205,81 @@ OUTPUT Sections/5.aux
 INPUT ./Sections/5.tex
 INPUT ./Sections/5.tex
 INPUT Sections/5.tex
+INPUT ./pic/F initComponents.png
+INPUT ./pic/F initComponents.png
+INPUT ./pic/F initComponents.png
+INPUT ./pic/F initComponents.png
+INPUT ./pic/F initComponents.png
+INPUT ./pic/F setDisclosureState.png
+INPUT ./pic/F setDisclosureState.png
+INPUT ./pic/F setDisclosureState.png
+INPUT ./pic/F setDisclosureState.png
+INPUT ./pic/F setDisclosureState.png
+INPUT ./pic/F initializeDisclosureButton.png
+INPUT ./pic/F initializeDisclosureButton.png
+INPUT ./pic/F initializeDisclosureButton.png
+INPUT ./pic/F initializeDisclosureButton.png
+INPUT ./pic/F initializeDisclosureButton.png
+INPUT ./pic/F createDisclosureButton.png
+INPUT ./pic/F createDisclosureButton.png
+INPUT ./pic/F createDisclosureButton.png
+INPUT ./pic/F createDisclosureButton.png
+INPUT ./pic/F createDisclosureButton.png
+INPUT ./pic/F createDisclosureButtonActionListener.png
+INPUT ./pic/F createDisclosureButtonActionListener.png
+INPUT ./pic/F createDisclosureButtonActionListener.png
+INPUT ./pic/F createDisclosureButtonActionListener.png
+INPUT ./pic/F createDisclosureButtonActionListener.png
+INPUT ./pic/F addDisclosureButtonToToolBar.png
+INPUT ./pic/F addDisclosureButtonToToolBar.png
+INPUT ./pic/F addDisclosureButtonToToolBar.png
+INPUT ./pic/F addDisclosureButtonToToolBar.png
+INPUT ./pic/F addDisclosureButtonToToolBar.png
+INPUT ./pic/F configureToolBarProperties.png
+INPUT ./pic/F configureToolBarProperties.png
+INPUT ./pic/F configureToolBarProperties.png
+INPUT ./pic/F configureToolBarProperties.png
+INPUT ./pic/F configureToolBarProperties.png
+INPUT ./pic/F validateAncestor.png
+INPUT ./pic/F validateAncestor.png
+INPUT ./pic/F validateAncestor.png
+INPUT ./pic/F validateAncestor.png
+INPUT ./pic/F validateAncestor.png
+INPUT ./pic/F setFloating.png
+INPUT ./pic/F setFloating.png
+INPUT ./pic/F setFloating.png
+INPUT ./pic/F setFloating.png
+INPUT ./pic/F setFloating.png
+INPUT ./pic/F floatAt.png
+INPUT ./pic/F floatAt.png
+INPUT ./pic/F floatAt.png
+INPUT ./pic/F floatAt.png
+INPUT ./pic/F floatAt.png
+INPUT ./pic/F prepareFloating.png
+INPUT ./pic/F prepareFloating.png
+INPUT ./pic/F prepareFloating.png
+INPUT ./pic/F prepareFloating.png
+INPUT ./pic/F prepareFloating.png
+INPUT ./pic/F initializeDockingSource.png
+INPUT ./pic/F initializeDockingSource.png
+INPUT ./pic/F initializeDockingSource.png
+INPUT ./pic/F initializeDockingSource.png
+INPUT ./pic/F initializeDockingSource.png
+INPUT ./pic/F showFloatingWindow.png
+INPUT ./pic/F showFloatingWindow.png
+INPUT ./pic/F showFloatingWindow.png
+INPUT ./pic/F showFloatingWindow.png
+INPUT ./pic/F showFloatingWindow.png
+INPUT ./pic/F dragTo.png
+INPUT ./pic/F dragTo.png
+INPUT ./pic/F dragTo.png
+INPUT ./pic/F dragTo.png
+INPUT ./pic/F dragTo.png
+INPUT ./pic/F initializeDragWindow.png
+INPUT ./pic/F initializeDragWindow.png
+INPUT ./pic/F initializeDragWindow.png
+INPUT ./pic/F initializeDragWindow.png
+INPUT ./pic/F initializeDragWindow.png
 INPUT ./Sections/6.tex
 OUTPUT Sections/6.aux
 INPUT ./Sections/6.tex

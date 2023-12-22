@@ -11,8 +11,26 @@
 \contentsline {section}{\numberline {4}Refactoring Patterns and Code smells}{13}{}%
 \contentsline {subsection}{\numberline {4.1}JDisclosureToolBar class}{13}{}%
 \contentsline {subsection}{\numberline {4.2}PaletteToolbarUI class}{15}{}%
-\contentsline {section}{\numberline {5}Refactoring Implementation}{20}{}%
-\contentsline {section}{\numberline {6}Verification}{21}{}%
-\contentsline {section}{\numberline {7}Continuous Integration}{22}{}%
-\contentsline {section}{\numberline {8}Conclusion}{23}{}%
-\contentsline {section}{\numberline {9}Source Code}{24}{}%
+\contentsline {section}{\numberline {5}Refactoring Implementation}{19}{}%
+\contentsline {subsection}{\numberline {5.1}JDisclosureToolBar class}{19}{}%
+\contentsline {subsubsection}{\numberline {5.1.1}initComponents}{19}{}%
+\contentsline {subsubsection}{\numberline {5.1.2}setDisclosureState}{19}{}%
+\contentsline {subsubsection}{\numberline {5.1.3}initializeDisclosureButton}{19}{}%
+\contentsline {subsubsection}{\numberline {5.1.4}createDisclosureButton}{20}{}%
+\contentsline {subsubsection}{\numberline {5.1.5}createDisclosureButtonActionListener}{20}{}%
+\contentsline {subsubsection}{\numberline {5.1.6}addDisclosureButtonToToolBar}{21}{}%
+\contentsline {subsubsection}{\numberline {5.1.7}configureToolBarProperties}{21}{}%
+\contentsline {subsubsection}{\numberline {5.1.8}validateAncestor}{21}{}%
+\contentsline {subsection}{\numberline {5.2}PaletteToolBarUI class - setFloating, dragTo and floatAt}{22}{}%
+\contentsline {subsubsection}{\numberline {5.2.1}setFloating}{22}{}%
+\contentsline {subsubsection}{\numberline {5.2.2}floatAt}{22}{}%
+\contentsline {subsubsection}{\numberline {5.2.3}prepareFloating}{22}{}%
+\contentsline {subsubsection}{\numberline {5.2.4}initializeDockingSource}{23}{}%
+\contentsline {subsubsection}{\numberline {5.2.5}showFloatingWindow}{23}{}%
+\contentsline {subsubsection}{\numberline {5.2.6}dragTo}{23}{}%
+\contentsline {subsubsection}{\numberline {5.2.7}initializeDragWindow}{24}{}%
+\contentsline {subsection}{\numberline {5.3}Impact of refactoring}{24}{}%
+\contentsline {section}{\numberline {6}Verification}{25}{}%
+\contentsline {section}{\numberline {7}Continuous Integration}{26}{}%
+\contentsline {section}{\numberline {8}Conclusion}{27}{}%
+\contentsline {section}{\numberline {9}Source Code}{28}{}%
