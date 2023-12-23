@@ -285,11 +285,71 @@ OUTPUT Sections/6.aux
 INPUT ./Sections/6.tex
 INPUT ./Sections/6.tex
 INPUT Sections/6.tex
+INPUT ./pic/Test testSetDisclosureStateCount.png
+INPUT ./pic/Test testSetDisclosureStateCount.png
+INPUT ./pic/Test testSetDisclosureStateCount.png
+INPUT ./pic/Test testSetDisclosureStateCount.png
+INPUT ./pic/Test testSetDisclosureStateCount.png
+INPUT ./pic/Test testGetDisclosureStateCount.png
+INPUT ./pic/Test testGetDisclosureStateCount.png
+INPUT ./pic/Test testGetDisclosureStateCount.png
+INPUT ./pic/Test testGetDisclosureStateCount.png
+INPUT ./pic/Test testGetDisclosureStateCount.png
+INPUT ./pic/Test testGetDisclosureState.png
+INPUT ./pic/Test testGetDisclosureState.png
+INPUT ./pic/Test testGetDisclosureState.png
+INPUT ./pic/Test testGetDisclosureState.png
+INPUT ./pic/Test testGetDisclosureState.png
+INPUT ./pic/Test testSetFloatingTrue.png
+INPUT ./pic/Test testSetFloatingTrue.png
+INPUT ./pic/Test testSetFloatingTrue.png
+INPUT ./pic/Test testSetFloatingTrue.png
+INPUT ./pic/Test testSetFloatingTrue.png
+INPUT ./pic/Test testSetFloatingFalse.png
+INPUT ./pic/Test testSetFloatingFalse.png
+INPUT ./pic/Test testSetFloatingFalse.png
+INPUT ./pic/Test testSetFloatingFalse.png
+INPUT ./pic/Test testSetFloatingFalse.png
+INPUT ./pic/Test testSetFloatingLocation.png
+INPUT ./pic/Test testSetFloatingLocation.png
+INPUT ./pic/Test testSetFloatingLocation.png
+INPUT ./pic/Test testSetFloatingLocation.png
+INPUT ./pic/Test testSetFloatingLocation.png
+INPUT ./pic/Test testFloatAt.png
+INPUT ./pic/Test testFloatAt.png
+INPUT ./pic/Test testFloatAt.png
+INPUT ./pic/Test testFloatAt.png
+INPUT ./pic/Test testFloatAt.png
+INPUT ./pic/BDD ToolPaletteTestDisplay.png
+INPUT ./pic/BDD ToolPaletteTestDisplay.png
+INPUT ./pic/BDD ToolPaletteTestDisplay.png
+INPUT ./pic/BDD ToolPaletteTestDisplay.png
+INPUT ./pic/BDD ToolPaletteTestDisplay.png
+INPUT ./pic/BDD ToolPaletteTestDisplay output.png
+INPUT ./pic/BDD ToolPaletteTestDisplay output.png
+INPUT ./pic/BDD ToolPaletteTestDisplay output.png
+INPUT ./pic/BDD ToolPaletteTestDisplay output.png
+INPUT ./pic/BDD ToolPaletteTestDisplay output.png
+INPUT ./pic/BDD ToolPaletteTestDragAndDrop.png
+INPUT ./pic/BDD ToolPaletteTestDragAndDrop.png
+INPUT ./pic/BDD ToolPaletteTestDragAndDrop.png
+INPUT ./pic/BDD ToolPaletteTestDragAndDrop.png
+INPUT ./pic/BDD ToolPaletteTestDragAndDrop.png
+INPUT ./pic/BDD ToolPaletteTestDragAndDrop output.png
+INPUT ./pic/BDD ToolPaletteTestDragAndDrop output.png
+INPUT ./pic/BDD ToolPaletteTestDragAndDrop output.png
+INPUT ./pic/BDD ToolPaletteTestDragAndDrop output.png
+INPUT ./pic/BDD ToolPaletteTestDragAndDrop output.png
 INPUT ./Sections/7.tex
 OUTPUT Sections/7.aux
 INPUT ./Sections/7.tex
 INPUT ./Sections/7.tex
 INPUT Sections/7.tex
+INPUT ./pic/Continuous Integration yml file.png
+INPUT ./pic/Continuous Integration yml file.png
+INPUT ./pic/Continuous Integration yml file.png
+INPUT ./pic/Continuous Integration yml file.png
+INPUT ./pic/Continuous Integration yml file.png
 INPUT ./Sections/8.tex
 OUTPUT Sections/8.aux
 INPUT ./Sections/8.tex
@@ -300,6 +360,14 @@ OUTPUT Sections/9.aux
 INPUT ./Sections/9.tex
 INPUT ./Sections/9.tex
 INPUT Sections/9.tex
+INPUT ./main.lof
+INPUT ./main.lof
+INPUT main.lof
+OUTPUT main.lof
+INPUT ./main.lot
+INPUT ./main.lot
+INPUT main.lot
+OUTPUT main.lot
 INPUT main.aux
 INPUT ./Sections/1.aux
 INPUT ./Sections/1.aux

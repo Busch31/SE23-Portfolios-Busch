@@ -1,0 +1,38 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces User Story for Drag and Drop}}{3}{}%
+\contentsline {figure}{\numberline {2}{\ignorespaces User Story for Display}}{3}{}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Featureous Feature-Code Characterization}}{8}{}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Featureous Feature Relations Characterization}}{9}{}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Feature-Package Correlation Graph}}{10}{}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Feature-Code Correlation Grid}}{11}{}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Orginal initComponents function}}{13}{}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Orginal setDisclosureState function}}{14}{}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Orginal floatAt function}}{15}{}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Orginal setFloating function}}{16}{}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Orginal dragTo function}}{17}{}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Refactored initComponents Method}}{19}{}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Refactored setDisclosureState Method}}{19}{}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Refactored initializeDisclosureButton Method}}{20}{}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Refactored createDisclosureButton Method}}{20}{}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Refactored createDisclosureButtonActionListener Method}}{20}{}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Refactored addDisclosureButtonToToolBar Method}}{21}{}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Refactored configureToolBarProperties Method}}{21}{}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Refactored validateAncestor Method}}{21}{}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Refactored setFloating Method}}{22}{}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Refactored floatAt Method}}{22}{}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Refactored prepareFloating Method}}{23}{}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Refactored initializeDockingSource Method}}{23}{}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Refactored showFloatingWindow Method}}{23}{}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Refactored dragTo Method}}{24}{}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Refactored initializeDragWindow Method}}{24}{}%
+\contentsline {figure}{\numberline {27}{\ignorespaces testtSetDisclosureStateCount Test}}{25}{}%
+\contentsline {figure}{\numberline {28}{\ignorespaces testGetDisclosureStateCount Test}}{25}{}%
+\contentsline {figure}{\numberline {29}{\ignorespaces testGetDisclosureState Test}}{26}{}%
+\contentsline {figure}{\numberline {30}{\ignorespaces testSetFloatingTrue Test}}{26}{}%
+\contentsline {figure}{\numberline {31}{\ignorespaces testSetFloatingFalse Test}}{26}{}%
+\contentsline {figure}{\numberline {32}{\ignorespaces testSetFloatingLocation Test}}{27}{}%
+\contentsline {figure}{\numberline {33}{\ignorespaces testFloatAt Test}}{27}{}%
+\contentsline {figure}{\numberline {34}{\ignorespaces BDD ToolPaletteTestDisplay}}{28}{}%
+\contentsline {figure}{\numberline {35}{\ignorespaces BDD ToolPaletteTestDisplay output}}{28}{}%
+\contentsline {figure}{\numberline {36}{\ignorespaces BDD ToolPaletteTestDragAndDrop}}{28}{}%
+\contentsline {figure}{\numberline {37}{\ignorespaces BDD ToolPaletteTestDragAndDrop output}}{29}{}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Continuous Integration yml file}}{30}{}%

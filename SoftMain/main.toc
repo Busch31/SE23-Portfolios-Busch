@@ -31,6 +31,28 @@
 \contentsline {subsubsection}{\numberline {5.2.7}initializeDragWindow}{24}{}%
 \contentsline {subsection}{\numberline {5.3}Impact of refactoring}{24}{}%
 \contentsline {section}{\numberline {6}Verification}{25}{}%
-\contentsline {section}{\numberline {7}Continuous Integration}{26}{}%
-\contentsline {section}{\numberline {8}Conclusion}{27}{}%
-\contentsline {section}{\numberline {9}Source Code}{28}{}%
+\contentsline {subsection}{\numberline {6.1}Unit Testing}{25}{}%
+\contentsline {subsubsection}{\numberline {6.1.1}JDisclosureToolBar Tests}{25}{}%
+\contentsline {subsubsection}{\numberline {6.1.2}testSetDisclosureStateCount}{25}{}%
+\contentsline {subsubsection}{\numberline {6.1.3}testGetDisclosureState}{25}{}%
+\contentsline {subsubsection}{\numberline {6.1.4}testGetDisclosureStateCount}{26}{}%
+\contentsline {subsubsection}{\numberline {6.1.5}PaletteToolBarUI Tests}{26}{}%
+\contentsline {subsubsection}{\numberline {6.1.6}testSetFloatingTrue}{26}{}%
+\contentsline {subsubsection}{\numberline {6.1.7}testSetFloatingFalse}{26}{}%
+\contentsline {subsubsection}{\numberline {6.1.8}testSetFloatingLocation}{27}{}%
+\contentsline {subsubsection}{\numberline {6.1.9}testFloatAt}{27}{}%
+\contentsline {subsection}{\numberline {6.2}Behavior-Driven Testing (BDD)}{27}{}%
+\contentsline {subsubsection}{\numberline {6.2.1}ToolPaletteTestDisplay Scenario}{27}{}%
+\contentsline {subsubsection}{\numberline {6.2.2}ToolPaletteTestDragAndDrop Scenario}{28}{}%
+\contentsline {section}{\numberline {7}Continuous Integration}{30}{}%
+\contentsline {subsection}{\numberline {7.1}Understanding Continuous Integration}{30}{}%
+\contentsline {subsection}{\numberline {7.2}Continuous Integration Implementation}{30}{}%
+\contentsline {subsection}{\numberline {7.3}Version Control with Git}{31}{}%
+\contentsline {section}{\numberline {8}Conclusion}{32}{}%
+\contentsline {subsection}{\numberline {8.1}Merging baseline}{32}{}%
+\contentsline {subsection}{\numberline {8.2}System Testing}{32}{}%
+\contentsline {subsection}{\numberline {8.3}Reflections}{32}{}%
+\contentsline {subsection}{\numberline {8.4}Scope Adjustments}{33}{}%
+\contentsline {subsection}{\numberline {8.5}Lessons Learned}{33}{}%
+\contentsline {section}{\numberline {9}Source Code}{34}{}%
+\contentsline {section}{\numberline {10}References}{34}{}%
