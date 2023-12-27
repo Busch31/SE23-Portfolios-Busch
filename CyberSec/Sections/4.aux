@@ -1,40 +1,67 @@
 \relax 
-\@writefile{toc}{\contentsline {section}{\numberline {4}Exercise 04: SQL Injection}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}SQL Injection}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}Does it mean the MySQL server is protected against cyber attacks? From Kali,try:mysql -h <METASPLOITABLE IP> -P 3306}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}How could that protection look like?}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.3}And what exactly would it protect against?}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Spying with SQL Injection}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}Please shortly discuss your opinion of this web servers configurationconcerning directly listings.}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}What type of SQLi attack works? Can you explain why?}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.3}What is the \# sign for? Can we generally assume it to do the trick?}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.4}Include four relevant username/password combinations in your report.What is the issue with the passwords in the data base and what could bedone to secure them?}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.5}Which other problem allows you to get into the machine using ssh? Howcould this be prevented?}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Elevation of Privilege}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1}Which are the individual issues that allowed us to go from a web interfaceto root access, and how would you address them as a servers operator toprevent them being exploited? Describe the issues you identified and tryto come up with suggestions on how to fix them.}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2}Can SQL Injection expose an otherwise inaccessible data base server?}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.3}How likely do you think an attack scenario as presented here is?}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Using our Foot in the Door for Access to Other Services}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.1}Is sudo necessary? What do we gain by using it?}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2}Are there other ways to search for a file? Which do you know?}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.3}What was the problem with the web application?}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.4}Which ports and services were the problem associated with?}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.5}How did you exploit the vulnerability?}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.6}And what were you able to do?}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.7}How would you suggest to fix the problem? (Do some online research aboutSQL injections solutions.)}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.8}Draft a shortly and crisply, the relevant parts of a policy trying to prevent theseissues.}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Fully Explore Local Accounts}{8}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.1}What are benefits of performing this scan after already having full access?}{8}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Post-Exploitation}{8}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.6.1}Thinking as an attacker, what would your next steps be?}{8}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.6.2}As an operator, what would you do to counteract?}{8}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}Obfuscated Malware}{8}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.7.1}Task 1 - Take your time to look at the code. Is it readable?}{8}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.7.2}Task 3 - What does the code do? Is it a malicious software and if so how wouldyou classify it?}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Exercise 04: SQL Injection}{17}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}SQL Injection}{17}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}Does it mean the MySQL server is protected against cyber attacks? From Kali, try:mysql -h <METASPLOITABLE IP> -P 3306}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces mysql}}{17}{}\protected@file@percent }
+\newlabel{fig:mysql}{{7}{17}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}How could that protection look like?}{17}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.3}And what exactly would it protect against?}{17}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Spying with SQL Injection}{17}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}Please shortly discuss your opinion of this web servers configuration concerning directly listings.}{17}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}What type of SQLi attack works? Can you explain why?}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces payroll}}{18}{}\protected@file@percent }
+\newlabel{fig:payroll}{{8}{18}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces payroll website}}{18}{}\protected@file@percent }
+\newlabel{fig:payroll website}{{9}{18}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.3}What is the \# sign for? Can we generally assume it to do the trick?}{18}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.4}Include four relevant username/password combinations in your report. What is the issue with the passwords in the data base and what could bedone to secure them?}{19}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces username and password 1}}{19}{}\protected@file@percent }
+\newlabel{fig:username and password 1}{{10}{19}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces username and password 2}}{20}{}\protected@file@percent }
+\newlabel{fig:username and password 2}{{11}{20}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.5}Which other problem allows you to get into the machine using ssh? Howcould this be prevented?}{20}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces ssh leia\_organa\spacefactor \@m {}10.0.2.15}}{21}{}\protected@file@percent }
+\newlabel{fig:ssh leia_organa@10.0.2.15}{{12}{21}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces leia\_organa}}{21}{}\protected@file@percent }
+\newlabel{fig:leia_organa}{{13}{21}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Elevation of Privilege}{21}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1}Which are the individual issues that allowed us to go from a web interfaceto root access, and how would you address them as a servers operator toprevent them being exploited? Describe the issues you identified and tryto come up with suggestions on how to fix them.}{21}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2}Can SQL Injection expose an otherwise inaccessible data base server?}{22}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.3}How likely do you think an attack scenario as presented here is?}{22}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Using our Foot in the Door for Access to Other Services}{22}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.1}Is sudo necessary? What do we gain by using it?}{22}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2}Are there other ways to search for a file? Which do you know?}{23}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces sudo find}}{23}{}\protected@file@percent }
+\newlabel{fig:sudo find}{{14}{23}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.3}Can you find anything interesting?}{23}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces cat payroll\_app}}{24}{}\protected@file@percent }
+\newlabel{fig:cat payroll_app}{{15}{24}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces select from users;}}{25}{}\protected@file@percent }
+\newlabel{fig:select from users;}{{16}{25}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.4}Whats the user name, password and database name?}{25}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces database info}}{25}{}\protected@file@percent }
+\newlabel{fig:database info}{{17}{25}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.5}What was the problem with the web application?}{25}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.6}Which ports and services were the problem associated with?}{25}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.7}How did you exploit the vulnerability?}{25}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.8}And what were you able to do?}{26}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.9}How would you suggest to fix the problem? (Do some online research aboutSQL injections solutions.)}{26}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.10}Draft a shortly and crisply, the relevant parts of a policy trying to prevent theseissues.}{26}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Fully Explore Local Accounts}{27}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.1}What are benefits of performing this scan after already having full access?}{27}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Post-Exploitation}{27}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.6.1}Thinking as an attacker, what would your next steps be?}{27}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.6.2}As an operator, what would you do to counteract?}{28}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}Obfuscated Malware}{28}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.7.1}Task 1 - Take your time to look at the code. Is it readable?}{28}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.7.2}Task 2 - The script is Base64 encoded charset UTF-8. You need to decode the python script by copying the "jibberish" text that is between the quotes for the payload variable. You can use, e.g., base64encode.net or any Base64 decoder that you find online.}{29}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces python script}}{29}{}\protected@file@percent }
+\newlabel{fig:python script}{{18}{29}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.7.3}Task 3 - What does the code do? Is it a malicious software and if so how wouldyou classify it?}{29}{}\protected@file@percent }
 \@setckpt{Sections/4}{
-\setcounter{page}{9}
+\setcounter{page}{31}
 \setcounter{equation}{0}
-\setcounter{enumi}{0}
+\setcounter{enumi}{12}
 \setcounter{enumii}{0}
 \setcounter{enumiii}{0}
 \setcounter{enumiv}{0}
@@ -43,9 +70,10 @@
 \setcounter{part}{0}
 \setcounter{section}{4}
 \setcounter{subsection}{7}
-\setcounter{subsubsection}{2}
+\setcounter{subsubsection}{3}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{0}
+\setcounter{figure}{18}
 \setcounter{table}{0}
+\setcounter{float@type}{4}
 }

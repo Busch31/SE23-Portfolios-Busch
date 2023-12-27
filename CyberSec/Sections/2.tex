@@ -2,20 +2,170 @@
 
 \subsection{02a: Thinking About Threats}
 
-\subsubsection{How did they separate access \& infrastructure according to data relevance \& impact?}
+Based on the following articles
+https://msrc.microsoft.com/blog/2023/09/results-of-major-technical-investigations-for-storm-0
+558-key-acquisition/
 
-\subsubsection{How do roles and personnel fit into this, and which role could policiesand training play?}
+https://blogs.microsoft.com/on-the-issues/2023/07/11/mitigation-china-based-threat-actor/
+
+
+\subsubsection{How did they separate access \& infrastructure according to data relevance \& impact?}
+Before the Storm-0558 incident occurred, Microsoft had implemented various security measures aimed at
+preventing unauthorized access to data. These included:
+\begin{itemize}
+    \item Employee background checks for new employees
+    \item All employees had an unique identifiable account
+    \item restricted access to workstations based on clearance level
+    \item Multi factor authentication (MFA)
+    \item Regular intervals for forced password updates
+\end{itemize}
+
+Following the Storm-0558 incident, Microsoft introduced a range of enhanced security protocols to prevent similar future occurrences. These included:
+\begin{itemize}
+    \item Classification of data and infrastructure components by their importance and sensitivity.
+    \item Dividing access and infrastructure according to the classifications mentioned above.
+\end{itemize}
+With these new security measures they tried to design a system that significantly reduce the probability of a similar attack happening again in the future.
+Ofcourse, this is not a foolproof solution, but it is a step in the right direction, as the human factor is a major factor in many security breaches,
+with the use of social engineering for example.
+
+
+\subsubsection{How do roles and personnel fit into this, and which role could policies and training play?}
+
+In the context of Microsoft's response to the Storm-0558 incident, several factors influenced the outcome and subsequent actions. These include:
+
+\begin{itemize}
+    \item \textbf{Log Retention and Validation Issues:} The incident highlighted a gap in the log retention policies, which, combined with unclear roles and responsibilities, led to a lack of proper validation.
+    \item \textbf{Role-Based Access and Breach:} Microsoft employees, such as engineers, had specific access rights, like entry to the debugging environment. The incident involved the compromise of an engineer’s account, granting access to sensitive areas like the crash dump environment.
+    \item \textbf{Training and Policy Adherence:} A critical point of failure was the transfer of sensitive data, like the signing key, into an environment where it was vulnerable. This misstep suggests either a deviation from standard protocols or a gap in employee training and awareness.
+    \item \textbf{Assumptions and Training Gaps:} Developers' incorrect assumptions about validation libraries pointed to a need for more robust training and explicit policy guidelines.
+    \item \textbf{Proactive Incident Response:} In response, Microsoft undertook a thorough review and update of its procedures, addressing issues such as race conditions, improved detection mechanisms, and updated validation libraries.
+    \item \textbf{Roles, Personnel, and Security Culture:} The roles and responsibilities of personnel are central to Microsoft’s cybersecurity strategy. Continuous training and clear protocols are essential for recognizing and mitigating security threats, thereby enhancing the overall security posture.
+\end{itemize}
+
+These aspects collectively underline the importance of clear policies, role definition, and continuous training in reinforcing cybersecurity measures.
+
+
+
 
 \subsection{02b Pentesting intro: Tutorial on Metasploit}
 
+
 \subsubsection{Which advantages for penetration testing would you see in the different ap-proaches? What is the best option?}
 
+In considering the various networking approaches for penetration testing, each presents distinct advantages tailored to specific testing needs:
+
+\begin{itemize}
+    \item \textbf{Network Address Translation (NAT) and NAT Networks}:
+          \begin{itemize}
+              \item NAT allows a virtual machine (VM) to share the host's IP address,
+                    creating an isolated internal network. This setup ensures that any malicious
+                    activities are contained within the VM, safeguarding the physical network.
+                    It's straightforward to set up and is effective for basic isolation needs.
+              \item NAT Networks extend this concept, allowing multiple VMs to interact on a private internal network while still sharing the host's IP.
+                    This facilitates VM-to-VM communication and is ideal for testing client-server interactions, while maintaining a degree of isolation.
+          \end{itemize}
+    \item \textbf{Bridged Networking}:
+          \begin{itemize}
+              \item Bridged Networking connects a VM directly to the hosts physical network, as if the VM were another device on that network.
+                    This approach is optimal for simulating real-world attack scenarios, allowing the VM to interact directly with other devices on the network.
+                    It's particularly useful for testing network defenses or intrusion detection systems.
+          \end{itemize}
+    \item \textbf{Host-Only Networking}:
+          \begin{itemize}
+              \item Host-Only Networking creates a network where VMs can communicate with the host and each other, but not with the external network.
+                    This provides maximum isolation, perfect for testing highly malicious software or tools without external network risks.
+                    It offers a controlled environment for simulating interactions between the host and VMs.
+          \end{itemize}
+\end{itemize}
+
+The ideal choice for penetration testing depends on the specific requirements of the test:
+
+\begin{itemize}
+    \item \textbf{For a controlled, isolated environment:} Host-only networking is preferable.
+    \item \textbf{For emulating real-world scenarios:} Bridged networking is suitable.
+    \item \textbf{For scenarios involving multiple VMs or client-server interactions:} NAT Network is advantageous.
+\end{itemize}
+
+Each approach caters to different aspects of penetration testing, from isolation and safety to realism and direct network interaction.
+
+
+
+
+
+
+
 \subsubsection{How does inspecting the ip configuration of a system help you with penetrationtesting? What is the security relevant aspect?}
+Inspecting the IP configuration of a system is a foundational step in penetration testing as it reveals critical details about the network infrastructure, which are essential for identifying security vulnerabilities:
+
+\begin{itemize}
+    \item \textbf{IP Address}: Understanding the system's IP address provides insight into its network position and potential IP ranges for other networked devices.
+    \item \textbf{Subnet Mask}: The subnet mask indicates network segmentation, providing clues to the network's scope and potential for lateral movement.
+    \item \textbf{Default Gateway}: Identifying the default gateway can highlight central targets within the network, such as routers, that can be exploited.
+    \item \textbf{DNS Servers}: Knowledge of DNS server addresses opens opportunities for attacks like DNS poisoning.
+    \item \textbf{DHCP Configuration}: Insights into DHCP settings can reveal susceptibilities to attacks that exploit DHCP protocols.
+    \item \textbf{Routing Table}: The routing table information is useful for understanding how traffic flows across the network and for identifying potential pivot points.
+\end{itemize}
+
+The security relevance of IP configurations lies in the exposure of the network's architecture, its weak spots, and any misconfigurations.
+This information aids penetration testers in network mapping, pinpointing vulnerabilities, and strategizing their approach.
+Additionally, understanding whether a network uses IPv4 or IPv6, as well as the IP ranges employed, can further the likelihood of discovering exploitable flaws.
+
+
 
 \subsubsection{How do you get the targeted user to execute our malicious payload?}
+To get a targeted user to execute a malicious payload, various methods can be used.
+Engaging in social engineering to deceive the user into thinking a file is safe by gaining their trust in an individual or an institution is one approach one could try and use.
+Alternatively, the file could be made to resemble an innocuous file type, such as a standard program, a multimedia file, or another non-threatening format,
+which may reduce the users vigilance. Moreover, leveraging known vulnerabilities that allow for automatic execution of code could enable the payload to run unknowingly to the user.
+
+
+
+
 
 \subsubsection{What is the practical use of this exercise? And why is the payloadworking in the way it is? How does this exercise relate to remote \& reverseshells?}
+The idea of this exercise is to demonstrate how one can access a compromised systems shell.
+The payload operates good because normally, an direct open connections for exploitation are rare.
+Instead, an incoming connection, made here by the payload, is required to open a way that the attacker can use to gain further access.
+This exercise is related to the concepts of remote and reverse shells: it illustrates the function of a remote shell, where an attacker remotely accesses a vulnerable system.
+also, it shows reverse shells, which involve the target system starting the connection back to the attacker's machine,
+thereby going around the firewall restrictions. This exercise is important for understanding the mechanisms of network intrusion and the practical application of these
+shells in real world scenarios. It also shows the importance of robust security measures and regular system updates to prevent such unauthorized accesses happening.
+
+
 \subsubsection{As user and the owner of this system -- how would you mitigate thisattack?}
+As the systems user and owner, you can mitigate this attack by:
+
+\begin{itemize}
+    \item Being cautious with file permissions, specifically avoiding the use of 'chmod a+x' on files of uncertain origin, as it allows all users to execute the file.
+    \item Not executing or running any payloads or scripts without verifying their safety and understanding their functions.
+    \item Regularly updating the system's security measures, including the deployment of firewalls and antivirus solutions, to prevent unauthorized access.
+    \item Educating any additional users of the system about the importance of these security practices to maintain the systems integrity.
+\end{itemize}
+
+
+
+
 \subsubsection{How does knowing user names help an attacker/penentration tester?}
-\subsubsection{Using the meterpreter shell, check the output of the "arp" command.What do you find? Why could this information be relevant?}
-\subsubsection{Now lets be on the other side of the fence and investigate suspiciousconnections to our metasploitable server.Which command can you use to see network status and connections?Is there an anomaly or suspicious connection to our server? What makesit suspicious?}
+Knowing usernames provides a big advantages for both attackers and penetration testers.
+With knowledge of usernames, the process of password brute forcing can start, targeting the identified accounts first.
+Specifically, on Linux systems, the `/etc/passwd` file reveals group memberships, which, when helded up against the `/etc/group`, can indicate privileged users.
+Identifying such users is quite beneficial in penetration testing, as accounts with elevated permissions are considered
+high value targets due to their broader access rights within the system which you want to gain as an attacker/penentration tester.
+Knowing usernames also maskes the brute-force process easier by ensuring efforts are
+concentrated on active and potentially vulnerable user accounts with the necessary permissions you want as an attacker/penentration tester.
+
+
+\subsubsection{Using the meterpreter shell, check the output of the \textit{arp} command. What do you find? Why could this information be relevant?}
+using the Meterpreter shell to execute the "arp" command gives back a list of network peers' IP and MAC addresses, showing the hardware connections between devices on the local network.
+This list includes the IP addresses, their corresponding hardware (MAC) addresses, and the interfaces at which they are connected.
+The \textit{arp} output is valuable because it gives the network layout and potential targets within a network,
+allowing for a more focused and faster penetration testing strategy. Understanding the relationships between devices can help in identifying further vulnerable points
+and planning later tries at a security assessment or penetration test.
+
+\subsubsection{Which command can you use to see network status and connections?Is there an anomaly or suspicious connection to our server? What makesit suspicious?}
+To check the network status and connections, the command \textit{netstat -a} is commonly used.
+It gives all active connections and listening ports. A connection could be suspicious if it originates from an unrecognized IP address,
+if there are unexpected data transfers occurring at times when no known operations should be happening, or if there is HTTP traffic on ports that are typically not used for this.
+also, frequent connections to unfamiliar foreign addresses or ports, especially those known to be used by malicious software, could also signal potential security threats.
+therefor its important to monitor for such things, as they can sometimes be an indicator of a compromised system or an ongoing attack.
