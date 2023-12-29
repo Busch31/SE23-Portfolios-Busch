@@ -23,7 +23,7 @@
 \contentsline {subsubsection}{\numberline {3.3.1}Compare your results from each of the previous activities in each question (e.g., sparta vs nessus vs openvas). Take notes \& discuss overlaps and differences inresults, pros and cons, ease of use for each tool.}{13}{}%
 \contentsline {subsection}{\numberline {3.4}Collecting the Assessment Information}{14}{}%
 \contentsline {subsubsection}{\numberline {3.4.1}Service, port number and version number, e.g., FTP 21 vxxxx}{15}{}%
-\contentsline {subsection}{\numberline {3.5}Completing the Assessment - Final report}{16}{}%
+\contentsline {subsection}{\numberline {3.5}Completing the Assessment - Final report}{15}{}%
 \contentsline {section}{\numberline {4}Exercise 04: SQL Injection}{17}{}%
 \contentsline {subsection}{\numberline {4.1}SQL Injection}{17}{}%
 \contentsline {subsubsection}{\numberline {4.1.1}Does it mean the MySQL server is protected against cyber attacks? From Kali, try:mysql -h <METASPLOITABLE IP> -P 3306}{17}{}%
@@ -71,17 +71,28 @@
 \contentsline {subsubsection}{\numberline {5.2.4}What do the excellent post exploitation scripts for linux offer?}{32}{}%
 \contentsline {subsection}{\numberline {5.3}Reflection}{32}{}%
 \contentsline {subsubsection}{\numberline {5.3.1}What is the main issue with the web server? How did it help selecting potentialexploits?}{32}{}%
-\contentsline {subsubsection}{\numberline {5.3.2}When opening the drupal web page, you are greeted by a warning. Do you thinkthis is good practice? Why or why not?}{33}{}%
+\contentsline {subsubsection}{\numberline {5.3.2}When opening the drupal web page, you are greeted by a warning. Do you thinkthis is good practice? Why or why not?}{32}{}%
 \contentsline {subsubsection}{\numberline {5.3.3}Given a more restrictive web server configuration, finding the relevant information wouldnt have been that easy. Please check dirbuster, to be found in the “Web Appli-cation Analysis” menu. How could this tool help you finding information? Try it outon the Ubuntu metasploitable VM. Use/ usr/ share/ dirbuster/ wordlists/ directory-list-2.3-medium.txtas dictionary.}{33}{}%
-\contentsline {subsubsection}{\numberline {5.3.4}How can effective spying with tools likedirbusterbe prevented?}{33}{}%
-\contentsline {subsubsection}{\numberline {5.3.5}This attack didnt get us all the way to root. How would you continue the pentest?What would be your next actions?}{33}{}%
-\contentsline {subsubsection}{\numberline {5.3.6}Do you have any specific things in mind you would try to get root access?}{33}{}%
-\contentsline {subsubsection}{\numberline {5.3.7}What makes getting a remote shell so powerful?}{33}{}%
-\contentsline {section}{\numberline {6}Exercise 06: Social Engineering}{34}{}%
-\contentsline {subsection}{\numberline {6.1}Defense}{34}{}%
-\contentsline {subsubsection}{\numberline {6.1.1}Which technical tools can be used to defend against social engineering attacks andagainst which?}{34}{}%
-\contentsline {subsubsection}{\numberline {6.1.2}Give examples on how you, as IT-experts, can either stop or mitigate SocialEngineering.}{34}{}%
-\contentsline {subsection}{\numberline {6.2}Experiment: Attack \& Defence}{34}{}%
-\contentsline {subsubsection}{\numberline {6.2.1}tailor an attack based on the information on our fictive victim DAN (see slides), based on the lecture materials. Discuss your choices.}{34}{}%
-\contentsline {subsubsection}{\numberline {6.2.2}tailor a course to DAN, to make sure that he is aware of and protected in the bestpossible way against social engineering attacks. Optionally, you can think abouta nice concept on how to do this, but this is not the essential part. Discuss yourchoices.}{34}{}%
-\contentsline {subsubsection}{\numberline {6.2.3}Present your approaches and then discuss if your strategies are matched or if youcould strengthen the defence or harden the attack.}{34}{}%
+\contentsline {subsubsection}{\numberline {5.3.4}How can effective spying with tools likedirbusterbe prevented?}{34}{}%
+\contentsline {subsubsection}{\numberline {5.3.5}This attack didnt get us all the way to root. How would you continue the pentest? What would be your next actions?}{34}{}%
+\contentsline {subsubsection}{\numberline {5.3.6}Do you have any specific things in mind you would try to get root access?}{35}{}%
+\contentsline {subsubsection}{\numberline {5.3.7}What makes getting a remote shell so powerful?}{35}{}%
+\contentsline {section}{\numberline {6}Exercise 06: Social Engineering}{36}{}%
+\contentsline {subsection}{\numberline {6.1}Defense}{36}{}%
+\contentsline {subsubsection}{\numberline {6.1.1}Which technical tools can be used to defend against social engineering attacks and against which?}{36}{}%
+\contentsline {subsubsection}{\numberline {6.1.2}Give examples on how you, as IT-experts, can either stop or mitigate SocialEngineering.}{37}{}%
+\contentsline {subsection}{\numberline {6.2}Experiment: Attack \& Defence}{37}{}%
+\contentsline {subsubsection}{\numberline {6.2.1}Attack}{37}{}%
+\contentsline {subsubsection}{\numberline {6.2.2}Defence}{37}{}%
+\contentsline {section}{\numberline {7}Exercise 07: Brute Forcing Glassfish}{38}{}%
+\contentsline {subsection}{\numberline {7.1}What does https actually provide protection for?}{38}{}%
+\contentsline {subsection}{\numberline {7.2}Which username/password combination did you find?}{38}{}%
+\contentsline {subsection}{\numberline {7.3}Discuss which security relevant problems are we testing with a brute force attack?}{38}{}%
+\contentsline {subsection}{\numberline {7.4}Discuss what would be your suggestions to the admin in order to address and mitigatethis issue?}{38}{}%
+\contentsline {subsection}{\numberline {7.5}How is this attack type related to the internet of things, internet routers, and, e.g.,virtual machines?}{38}{}%
+\contentsline {subsection}{\numberline {7.6}Do you know a way in which https could make the connection more secure against thiskind of attack?}{39}{}%
+\contentsline {section}{\numberline {8}Exercise 08: Threat Modelling}{40}{}%
+\contentsline {subsection}{\numberline {8.1}A simple Data Flow Diagram}{40}{}%
+\contentsline {subsection}{\numberline {8.2}Updated Flow Diagram \& STRIDE}{41}{}%
+\contentsline {section}{\numberline {9}Exercise 09: Intrusion Detection}{42}{}%
+\contentsline {subsection}{\numberline {9.1}Short discussion:Use case of the presented options}{42}{}%

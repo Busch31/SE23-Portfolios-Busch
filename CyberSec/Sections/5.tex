@@ -86,13 +86,71 @@ Such access highly aids in compromising the host machine.
 
 \subsubsection{When opening the drupal web page, you are greeted by a warning. Do you thinkthis is good practice? Why or why not?}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth]{pic/warning.png}
+    \caption{warning}
+    \label{fig:warning}
+\end{figure}
+
+Displaying a warning like this when going to the Drupal web page is not the best idea.
+Such warnings could reveal details about the applications configuration, which could guiding an attacker to exploit existing security vulnerabilities.
+Also, these warnings indicate possible misconfigurations in the Drupal server, which could suggest the presence of additional security weaknesses that might be exploited.
+Its important for security to hide these messages from public view to prevent disclosing sensitive information.
+
 \subsubsection{Given a more restrictive web server configuration, finding the relevant information wouldnt have been that easy. Please check dirbuster, to be found in the “Web Appli-cation Analysis” menu. How could this tool help you finding information? Try it outon the Ubuntu metasploitable VM. Use/ usr/ share/ dirbuster/ wordlists/ directory-list-2.3-medium.txtas dictionary.}
+
+DirBuster is a tool designed to discover directories and files on a target server. By conducting a brute force attack, it will attempt various directory names,
+sending multiple requests to uncover what directories exist on the server.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth]{pic/DirBuster App.png}
+    \caption{DirBuster App}
+    \label{fig:DirBuster App}
+\end{figure}
+
+This process results in a report detailing the servers directory structure.
+For instance, to investigate the contents of a previously identified '/drupal' directory, DirBuster can be configured to focus its search within this specific path.
+The outcome of such an operation provides insights into potential entry points and the overall structure of the server,
+which is important for further penetration testing or security assessments.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{pic/DirBuster.png}
+    \caption{DirBuster}
+    \label{fig:DirBuster}
+\end{figure}
+
 
 \subsubsection{How can effective spying with tools likedirbusterbe prevented?}
 
-\subsubsection{This attack didnt get us all the way to root. How would you continue the pentest?What would be your next actions?}
+To counteract the effectiveness of tools like DirBuster, several strategies can be employed
+
+\begin{itemize}
+    \item Avoid using predictable or common filenames, choose to do more randomized and obscure naming conventions to make brute force discovery less optimal.
+    \item Employ rate limiting measures to restrict the number of requests a single user can make within a given timeframe, thereby counteracting the rapid request capability of DirBuster.
+    \item Return a 404 status code for sensitive directories and files to give the impression that they do not exist, even if they do, thereby misleading automated scanning tools.
+    \item Implement CAPTCHAs to challenge and filter out automated access attempts, making it difficult for tools like DirBuster to interact with the site without human intervention.
+    \item Utilize firewalls to monitor and potentially block incoming traffic that exhibits patterns typical of directory brute-forcing tools.
+    \item Set up robust monitoring systems with alerts to detect and respond to suspicious activities indicative of scanning attempts.
+\end{itemize}
+These methods contribute to a layered defense approach that can reduce the likelihood of successful spying by automated tools aimed at mapping server directories.
+
+
+\subsubsection{This attack didnt get us all the way to root. How would you continue the pentest? What would be your next actions?}
+The attack did not grant us root privileges, obtaining such access becomes easier once we have control over a
+user with sudo capabilities. The logical next step is to use the sudo privileges to execute the \textit{sudo passwd root} command.
+This would allow us to set a new password for the root user, which we could use to log in with full root access.
+This would be the approach I would take to progress the penetration test.
 
 \subsubsection{Do you have any specific things in mind you would try to get root access?}
+When looking for the root access, I would consider exploiting the systems configuration by attempting to change the root password using the \textit{passwd} command.
+Given the systems apparent misconfiguration, there is a chance that it might permit such an action, thereby granting me full control over the system.
+
 
 \subsubsection{What makes getting a remote shell so powerful?}
-
+Getting a remote shell is important due to the ability it grants an attacker to execute commands directly on a target machine.
+This access can lead to the loose of high amounts of information. Essentially, the attacker can control the system and access most or all the data on the system,
+thereby maximizing spying capabilities. Also, the remote nature of this access means that it can be conducted from anywhere, often without detection,
+as many firewalls may not flag the shell's traffic, beliving its for legitimate outgoing connections.
