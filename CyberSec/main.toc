@@ -4,14 +4,14 @@
 \contentsline {subsubsection}{\numberline {2.1.1}How did they separate access \& infrastructure according to data relevance \& impact?}{4}{}%
 \contentsline {subsubsection}{\numberline {2.1.2}How do roles and personnel fit into this, and which role could policies and training play?}{4}{}%
 \contentsline {subsection}{\numberline {2.2}02b Pentesting intro: Tutorial on Metasploit}{5}{}%
-\contentsline {subsubsection}{\numberline {2.2.1}Which advantages for penetration testing would you see in the different ap-proaches? What is the best option?}{5}{}%
-\contentsline {subsubsection}{\numberline {2.2.2}How does inspecting the ip configuration of a system help you with penetrationtesting? What is the security relevant aspect?}{6}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}Which advantages for penetration testing would you see in the different approaches? What is the best option?}{5}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}How does inspecting the ip configuration of a system help you with penetration testing? What is the security relevant aspect?}{6}{}%
 \contentsline {subsubsection}{\numberline {2.2.3}How do you get the targeted user to execute our malicious payload?}{6}{}%
-\contentsline {subsubsection}{\numberline {2.2.4}What is the practical use of this exercise? And why is the payloadworking in the way it is? How does this exercise relate to remote \& reverseshells?}{6}{}%
-\contentsline {subsubsection}{\numberline {2.2.5}As user and the owner of this system -- how would you mitigate thisattack?}{7}{}%
+\contentsline {subsubsection}{\numberline {2.2.4}What is the practical use of this exercise? And why is the payload working in the way it is? How does this exercise relate to remote \& reverseshells?}{6}{}%
+\contentsline {subsubsection}{\numberline {2.2.5}As user and the owner of this system -- how would you mitigate this attack?}{7}{}%
 \contentsline {subsubsection}{\numberline {2.2.6}How does knowing user names help an attacker/penentration tester?}{7}{}%
 \contentsline {subsubsection}{\numberline {2.2.7}Using the meterpreter shell, check the output of the \textit {arp} command. What do you find? Why could this information be relevant?}{7}{}%
-\contentsline {subsubsection}{\numberline {2.2.8}Which command can you use to see network status and connections?Is there an anomaly or suspicious connection to our server? What makesit suspicious?}{7}{}%
+\contentsline {subsubsection}{\numberline {2.2.8}Which command can you use to see network status and connections? Is there an anomaly or suspicious connection to our server? What makes it suspicious?}{7}{}%
 \contentsline {section}{\numberline {3}Exercise 03: General Assessment}{9}{}%
 \contentsline {subsection}{\numberline {3.1}Finding information with whois}{9}{}%
 \contentsline {subsubsection}{\numberline {3.1.1}What do you learn about SDUs network? In the protocol, note the IPrange.}{9}{}%
@@ -34,7 +34,7 @@
 \contentsline {subsubsection}{\numberline {4.2.2}What type of SQLi attack works? Can you explain why?}{17}{}%
 \contentsline {subsubsection}{\numberline {4.2.3}What is the \# sign for? Can we generally assume it to do the trick?}{18}{}%
 \contentsline {subsubsection}{\numberline {4.2.4}Include four relevant username/password combinations in your report. What is the issue with the passwords in the data base and what could bedone to secure them?}{19}{}%
-\contentsline {subsubsection}{\numberline {4.2.5}Which other problem allows you to get into the machine using ssh? Howcould this be prevented?}{20}{}%
+\contentsline {subsubsection}{\numberline {4.2.5}Which other problem allows you to get into the machine using ssh? How could this be prevented?}{20}{}%
 \contentsline {subsection}{\numberline {4.3}Elevation of Privilege}{21}{}%
 \contentsline {subsubsection}{\numberline {4.3.1}Which are the individual issues that allowed us to go from a web interfaceto root access, and how would you address them as a servers operator toprevent them being exploited? Describe the issues you identified and tryto come up with suggestions on how to fix them.}{21}{}%
 \contentsline {subsubsection}{\numberline {4.3.2}Can SQL Injection expose an otherwise inaccessible data base server?}{22}{}%
@@ -71,16 +71,16 @@
 \contentsline {subsubsection}{\numberline {5.2.4}What do the excellent post exploitation scripts for linux offer?}{32}{}%
 \contentsline {subsection}{\numberline {5.3}Reflection}{32}{}%
 \contentsline {subsubsection}{\numberline {5.3.1}What is the main issue with the web server? How did it help selecting potentialexploits?}{32}{}%
-\contentsline {subsubsection}{\numberline {5.3.2}When opening the drupal web page, you are greeted by a warning. Do you thinkthis is good practice? Why or why not?}{32}{}%
+\contentsline {subsubsection}{\numberline {5.3.2}When opening the drupal web page, you are greeted by a warning. Do you think this is good practice? Why or why not?}{32}{}%
 \contentsline {subsubsection}{\numberline {5.3.3}Given a more restrictive web server configuration, finding the relevant information wouldnt have been that easy. Please check dirbuster, to be found in the “Web Appli-cation Analysis” menu. How could this tool help you finding information? Try it outon the Ubuntu metasploitable VM. Use/ usr/ share/ dirbuster/ wordlists/ directory-list-2.3-medium.txtas dictionary.}{33}{}%
-\contentsline {subsubsection}{\numberline {5.3.4}How can effective spying with tools likedirbusterbe prevented?}{34}{}%
+\contentsline {subsubsection}{\numberline {5.3.4}How can effective spying with tools like dirbuster be prevented?}{34}{}%
 \contentsline {subsubsection}{\numberline {5.3.5}This attack didnt get us all the way to root. How would you continue the pentest? What would be your next actions?}{34}{}%
 \contentsline {subsubsection}{\numberline {5.3.6}Do you have any specific things in mind you would try to get root access?}{35}{}%
 \contentsline {subsubsection}{\numberline {5.3.7}What makes getting a remote shell so powerful?}{35}{}%
 \contentsline {section}{\numberline {6}Exercise 06: Social Engineering}{36}{}%
 \contentsline {subsection}{\numberline {6.1}Defense}{36}{}%
 \contentsline {subsubsection}{\numberline {6.1.1}Which technical tools can be used to defend against social engineering attacks and against which?}{36}{}%
-\contentsline {subsubsection}{\numberline {6.1.2}Give examples on how you, as IT-experts, can either stop or mitigate SocialEngineering.}{37}{}%
+\contentsline {subsubsection}{\numberline {6.1.2}Give examples on how you, as IT-experts, can either stop or mitigate Social Engineering.}{37}{}%
 \contentsline {subsection}{\numberline {6.2}Experiment: Attack \& Defence}{37}{}%
 \contentsline {subsubsection}{\numberline {6.2.1}Attack}{37}{}%
 \contentsline {subsubsection}{\numberline {6.2.2}Defence}{37}{}%
@@ -89,10 +89,10 @@
 \contentsline {subsection}{\numberline {7.2}Which username/password combination did you find?}{38}{}%
 \contentsline {subsection}{\numberline {7.3}Discuss which security relevant problems are we testing with a brute force attack?}{38}{}%
 \contentsline {subsection}{\numberline {7.4}Discuss what would be your suggestions to the admin in order to address and mitigatethis issue?}{38}{}%
-\contentsline {subsection}{\numberline {7.5}How is this attack type related to the internet of things, internet routers, and, e.g.,virtual machines?}{38}{}%
+\contentsline {subsection}{\numberline {7.5}How is this attack type related to the internet of things, internet routers, and, e.g., virtual machines?}{38}{}%
 \contentsline {subsection}{\numberline {7.6}Do you know a way in which https could make the connection more secure against thiskind of attack?}{39}{}%
 \contentsline {section}{\numberline {8}Exercise 08: Threat Modelling}{40}{}%
 \contentsline {subsection}{\numberline {8.1}A simple Data Flow Diagram}{40}{}%
 \contentsline {subsection}{\numberline {8.2}Updated Flow Diagram \& STRIDE}{41}{}%
 \contentsline {section}{\numberline {9}Exercise 09: Intrusion Detection}{42}{}%
-\contentsline {subsection}{\numberline {9.1}Short discussion:Use case of the presented options}{42}{}%
+\contentsline {subsection}{\numberline {9.1}Short discussion: Use case of the presented options}{42}{}%
